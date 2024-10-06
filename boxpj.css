@@ -14,8 +14,8 @@
 .top-slider {
     position: relative;
     overflow: hidden;
-    height: 350px;
-    width: 420px;
+    height: 320px;
+    width: 350px;
     box-shadow: 0 4px 6px var(--shadow-color);
 }
 
@@ -82,7 +82,6 @@
 
 .slider-nav {
     position: absolute;
-    bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
