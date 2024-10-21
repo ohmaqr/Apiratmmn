@@ -1,0 +1,145 @@
+
+.card {
+  box-shadow: 0 3px 10px 0 #aaa;
+  cursor: pointer;
+  height: 200px;
+  position: relative;
+  width: 155px;
+}
+
+.card.visited {
+  box-shadow: 0 3px 10px 2px #444;
+}
+
+.top-slider {
+    position: relative;
+    overflow: hidden;
+    height: 320px;
+    width: 350px;
+    box-shadow: 0 4px 6px var(--shadow-color);
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+    height: 100%;
+}
+
+.slide {
+    flex: 0 0 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.A-slide {
+    background-image: linear-gradient(45deg, #ff4c4c, #feca57);
+}
+
+.B-slide {
+    background-image: linear-gradient(45deg, #ff6b6b, #feca57);
+}
+
+.C-slide {
+    background-image: linear-gradient(45deg, #f1ff32, #6de934);
+}
+
+.D-slide {
+    background-image: linear-gradient(45deg, #7aff3c, #64f5ff);
+}
+
+.E-slide {
+    background-image: linear-gradient(45deg, #4be4ff, #7339cf);
+}
+
+.F-slide {
+    background-image: linear-gradient(45deg, #5f27cd, #c054ff);
+}
+
+.G-slide {
+    background-image: linear-gradient(45deg, #b127cd, #fd70f6);
+}
+.H-slide {
+    background-image: linear-gradient(45deg, #ff67eb, #fe5757);
+}
+
+.I-slide {
+    background-image: linear-gradient(45deg, #ff4851, #feca57);
+}
+
+.J-slide {
+    background-image: linear-gradient(45deg, #ff9ff3, #feca57);
+}
+
+.rewards-slide span {
+    color: #ffd700;
+    font-weight: bold;
+}
+
+.slider-nav {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.slider-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    z-index: 10;
+    transition: background-color 0.3s ease;
+}
+
+.slider-arrow:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.slider-arrow.left {
+    left: 10px;
+}
+
+.slider-arrow.right {
+    right: 10px;
+}
+
+.game-options {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.option {
+    flex: 1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 20px;
+    box-shadow: 0 4px 6px var(--shadow-color);
+    aspect-ratio: 1 / 1;
+    background-image: var(--option-gradient);
+}
+
+.option:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px var(--shadow-color);
+}
+
+/*sd*/
