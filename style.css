@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(to bottom, #0C101D, #222B4A);
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.card-gradient-bg {
+    background: linear-gradient(to bottom, #1E2637, #2C3350);
+}
+
+/* Fading animation */
+.fade {
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+.slideshow-container {
+max-width: 1000px;
+position: relative;
+margin: auto;
+}
+
+  /* Fading animation 2*/
+.fade2 {
+animation-name: fade2;
+animation-duration: 1.5s;
+}
+
+@keyframes fade2 {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+.slideshow2-container2 {
+max-width: 1000px;
+position: relative;
+margin: auto;
+}
+
+/* icon picture */
+.container {
+    display: flex;
+    align-items: center; /* Aligns items vertically center */
+}
+.container img {
+    margin-right: 10px; /* Adds space between the image and text */
+}
+/* project */
+.box {
+    display: flex;
+    align-items: center; /* Aligns items vertically center */
+}
+
+.card {
+cursor: pointer;
+height: 140px;
+position: relative;
+width: 120px;
+}
+/* cursor-pointer จุดชี้ */
