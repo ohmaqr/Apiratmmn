@@ -1,6 +1,6 @@
 $("#menu-btn").click(function (e) { 
     
-    $("#menu-bar").toggleClass("opacity-0");
+    $("#menu-bar").toggleClass("absolute hidden");
 });
 
 /* Slide picture  */
